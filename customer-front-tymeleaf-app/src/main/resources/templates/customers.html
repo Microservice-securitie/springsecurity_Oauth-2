@@ -10,26 +10,32 @@
 </head>
 <body>
 <div layout:fragment="content">
-    <table class="table">
-        <thead>
-        <tr>
-            <th>
-                ID
-            </th><th>
-            Name
-        </th><th>
-            Email
-        </th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr th:each="c:${customers}">
-            <td th:text="${c.id}"></td>
-            <td th:text="${c.name}"></td>
-            <td th:text="${c.email}"></td>
-        </tr>
-        </tbody>
-    </table>
+    <div class="p-3">
+        <div class="card">
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>
+                            ID
+                        </th><th>
+                        Name
+                    </th><th>
+                        Email
+                    </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr th:each="c:${customers}">
+                        <td th:text="${c.id}"></td>
+                        <td th:text="${c.name}"></td>
+                        <td th:text="${c.email}"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
