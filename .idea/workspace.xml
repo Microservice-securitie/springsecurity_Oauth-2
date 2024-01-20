@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37648da6-2af5-4c5f-ab0c-4d30ddcaf8c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/customer-front-tymeleaf-app/src/main/java/emsi/app/customerfronttymeleafapp/repo/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-front-tymeleaf-app/src/main/resources/templates/customers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-front-tymeleaf-app/src/main/java/emsi/app/customerfronttymeleafapp/CustomerFrontTymeleafAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-tymeleaf-app/src/main/java/emsi/app/customerfronttymeleafapp/CustomerFrontTymeleafAppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-tymeleaf-app/src/main/java/emsi/app/customerfronttymeleafapp/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-tymeleaf-app/src/main/java/emsi/app/customerfronttymeleafapp/entity/Customer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +28,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bDOAQoAPlytDwvmX729pyVxVnb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,9 +41,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CustomerFrontTymeleafAppApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "jbr-17",
     "kotlin-language-version-configured": "true",
@@ -82,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705746040290</updated>
       <workItem from="1705746041416" duration="6541000" />
+      <workItem from="1705756206905" duration="1182000" />
     </task>
     <servers />
   </component>
