@@ -18,6 +18,9 @@ public class Securityconfig {
                 .authorizeHttpRequests(ar->ar.requestMatchers("/","/webjars/**", "/h2-console/**").permitAll())
                 .authorizeHttpRequests(ar->ar.anyRequest().authenticated())
                 .oauth2Login(Customizer.withDefaults())
+                .logout((logout)->logout
+                        .logoutSuccessUrl("/").permitAll()
+                        .deleteCookies("JSESSIONID"))
                 .build();
     }
 }
