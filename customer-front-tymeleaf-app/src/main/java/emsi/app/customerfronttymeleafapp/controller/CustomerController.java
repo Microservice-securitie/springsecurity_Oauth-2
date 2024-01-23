@@ -6,6 +6,7 @@ import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
@@ -31,6 +32,7 @@ public class CustomerController {
     }
 
     @GetMapping("/auth")
+    @ResponseBody
     public Authentication authentication(Authentication authentication){
         return authentication;
     }
