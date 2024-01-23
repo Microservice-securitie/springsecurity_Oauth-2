@@ -15,7 +15,7 @@ public class Securityconfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
         return httpSecurity
                 .csrf(Customizer.withDefaults())
-                .authorizeHttpRequests(ar->ar.requestMatchers("/","/webjars/**,", "/h2-console/**").permitAll())
+                .authorizeHttpRequests(ar->ar.requestMatchers("/","/webjars/**", "/h2-console/**").permitAll())
                 .authorizeHttpRequests(ar->ar.anyRequest().authenticated())
                 .oauth2Login(Customizer.withDefaults())
                 .build();

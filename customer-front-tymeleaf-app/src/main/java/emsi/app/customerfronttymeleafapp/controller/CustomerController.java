@@ -2,6 +2,7 @@ package emsi.app.customerfronttymeleafapp.controller;
 
 import emsi.app.customerfronttymeleafapp.entity.Customer;
 import emsi.app.customerfronttymeleafapp.repo.CustomerRepository;
+import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -27,5 +28,15 @@ public class CustomerController {
     public String products(Model model){
 
         return "products";
+    }
+
+    @GetMapping("/auth")
+    public Authentication authentication(Authentication authentication){
+        return authentication;
+    }
+
+    @GetMapping("/")
+    public String index(){
+        return "index";
     }
 }
