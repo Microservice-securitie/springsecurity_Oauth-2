@@ -1,0 +1,10 @@
+GET http://localhost:8083/auth
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: __Host-GAPS=1:c4vO2yTFbFaJcTxUXmQeencLfdHXpQ:Qn8q9LKPF25u7v7H
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-23T155430.200.html
+
+###
+
