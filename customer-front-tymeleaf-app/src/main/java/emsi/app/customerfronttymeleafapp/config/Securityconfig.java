@@ -34,7 +34,8 @@ public class Securityconfig {
                 .csrf(Customizer.withDefaults())
                 .authorizeHttpRequests(ar->ar.requestMatchers("/","/Oauth2Login/**","/webjars/**","/h2-console/**").permitAll())
                 .authorizeHttpRequests(ar->ar.anyRequest().authenticated())
-                .oauth2Login(al->al.loginPage("/Oauth2Login"))
+                .oauth2Login(al->al.loginPage("/Oauth2Login")
+                        .defaultSuccessUrl("/"))
                 .logout((logout)->logout
                         .logoutSuccessHandler(oidcLogoutSuccessHandler())
                         .logoutSuccessUrl("/").permitAll()
