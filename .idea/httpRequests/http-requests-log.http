@@ -1,3 +1,106 @@
+POST http://localhost:8080/realms/appRealm/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 125
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=AFE16E230ADEC078915655EC69C8E844
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+grant_type=password&username=user1&password=1234&client_id=app-customer-client&client_secret=DaoupTQkfxOILPvVLzylp91RsLVtRHuq
+
+<> 2024-01-24T112344.200.json
+
+###
+
+POST http://localhost:8080/realms/sdia-realm/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 125
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=AFE16E230ADEC078915655EC69C8E844
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+grant_type=password&username=User1&password=1234&client_id=sdia-customerClient&client_secret=mv3XREmfJocCQdewTsKXAnIAgZ0Rp9yW
+
+<> 2024-01-24T001617.400.json
+
+###
+
+POST http://localhost:8080/realms/sdia-realm/protocol/openid-connect/token
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 125
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=AFE16E230ADEC078915655EC69C8E844
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+grant_type=password&username=user1&password=1234&client_id=sdia-customerClient&client_secret=mv3XREmfJocCQdewTsKXAnIAgZ0Rp9yW
+
+<> 2024-01-24T001340.400.json
+
+###
+
+POST http://localhost:8080/realms/sdia-realm/protocol/openid-connect/token
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 125
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=AFE16E230ADEC078915655EC69C8E844
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+grant_type=password&username=user1&password=1234&client_id=sdia-customerClient&client_secret=mv3XREmfJocCQdewTsKXAnIAgZ0Rp9yW
+
+<> 2024-01-24T001235.400.json
+
+###
+
+POST http://localhost:8080/realms/sdia-realm/protocol/openid-connect/token
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 125
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=AFE16E230ADEC078915655EC69C8E844
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+grant_type=password&username=user1&password=1234&client_id=sdia-customerClient&client_secret=mv3XREmfJocCQdewTsKXAnIAgZ0Rp9yW
+
+<> 2024-01-24T001232.400.json
+
+###
+
+POST http://localhost:8080/realms/sdia-realm/protocol/openid-connect/token
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 125
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=AFE16E230ADEC078915655EC69C8E844
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+grant_type=password&username=User1&password=1234&client_id=sdia-customerClient&client_secret=mv3XREmfJocCQdewTsKXAnIAgZ0Rp9yW
+
+<> 2024-01-24T001126.400.json
+
+###
+
+POST http://localhost:8080/realms/sdia-realm/protocol/openid-connect/token
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 125
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=AFE16E230ADEC078915655EC69C8E844
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+grant_type=password&username=User1&password=1234&client_id=sdia-customerClient&client_secret=mv3XREmfJocCQdewTsKXAnIAgZ0Rp9yW
+
+<> 2024-01-24T001117.400.json
+
+###
+
 GET http://localhost:8083/auth
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
