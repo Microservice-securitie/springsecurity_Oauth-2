@@ -29,14 +29,14 @@ L'intégration fluide de Keycloak dans notre infrastructure a été réalisée e
 <h3>Keycloak Login </h3>
 
 <p align="center" >
-<img src= "Resources/keycloak-Login.png" height="800" width="auto" />
+<img src= "Resources/keycloak-Login.png" width="960" />
 </p>
 
 <h3>Keycloak configuration </h3>
 <p align="center" >
-<img src= "Resources/configuration.png" height="800" width="auto" />
+<img src= "Resources/configuration.png" width="960" />
 </p>
 <p align="center" >
-<img src= "Resources/keycloak_user.png" height="800" width="auto" />
+<img src= "Resources/keycloak_user.png" width="960" />
 </p>
 
