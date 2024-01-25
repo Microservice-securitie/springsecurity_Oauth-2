@@ -52,4 +52,7 @@ L'élargissement des options d'authentification de notre application a été ré
 <img src= "Resources/provider.png" width="960" />
 </p>
 
-
+<h3>Testing end point</h4>
+<p align="center" >
+<img src= "Resources/jwtToken.png" width="960" />
+</p>

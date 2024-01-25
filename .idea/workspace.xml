@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37648da6-2af5-4c5f-ab0c-4d30ddcaf8c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/src/app/customers/customers.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/src/app/Customers/customers.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/src/app/customers/customers.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/src/app/Customers/customers.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/src/app/customers/customers.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/src/app/Customers/customers.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/src/app/customers/customers.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/src/app/Customers/customers.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/src/app/products/products.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/src/app/Products/products.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/src/app/products/products.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/src/app/Products/products.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/src/app/products/products.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/src/app/Products/products.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/src/app/products/products.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/src/app/Products/products.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +153,7 @@
       <workItem from="1705997958839" duration="22795000" />
       <workItem from="1706106032418" duration="2503000" />
       <workItem from="1706109141805" duration="2220000" />
-      <workItem from="1706206294355" duration="2387000" />
+      <workItem from="1706206294355" duration="2789000" />
     </task>
     <servers />
   </component>
