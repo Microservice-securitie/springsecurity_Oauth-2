@@ -1,3 +1,13 @@
+GET http://localhost:8083/products
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=84C47181046E4BE3F2EEEC3D61F3CB44
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-26T000601.200.html
+
+###
+
 POST http://localhost:8080/realms/master/protocol/openid-connect/token
 Content-Length: 199
 Content-Type: */*; charset=UTF-8

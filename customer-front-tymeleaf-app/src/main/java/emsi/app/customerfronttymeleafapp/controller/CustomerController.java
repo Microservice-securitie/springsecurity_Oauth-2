@@ -49,7 +49,7 @@ public class CustomerController {
         OAuth2AuthenticationToken oAuth2AuthenticationToken = (OAuth2AuthenticationToken) authentication;
         DefaultOidcUser oidcUser = (DefaultOidcUser) oAuth2AuthenticationToken.getPrincipal();
         String jwtTokenValue = oidcUser.getIdToken().getTokenValue();
-        RestClient restClient = RestClient.create("http://localhost:8070");
+        RestClient restClient = RestClient.create("http://localhost:8083");
         List<Product> products = restClient.get()
                 .uri("/products")
                 .headers(httpHeaders -> httpHeaders.set(HttpHeaders.AUTHORIZATION, "Bearer " + jwtTokenValue))
