@@ -56,3 +56,15 @@ L'élargissement des options d'authentification de notre application a été ré
 <p align="center" >
 <img src= "Resources/jwtToken.png" width="960" />
 </p>
+
+
+## Part 2 : Securiser l'application en utilisation spring boot et Angular 
+
+## Angular 
+Angular est un framework pour clients, open source, basé sur TypeScript et codirigé par l'équipe du projet « Angular » chez Google ainsi que par une communauté de particuliers et de sociétés. Angular est une réécriture complète d'AngularJS,
+
+<h3>Creation d'un nouveau Client dans Keycloack </h3>
+
+<p align="center" >
+<img src= "Resources/NvClient.png" width="960" />
+</p>
