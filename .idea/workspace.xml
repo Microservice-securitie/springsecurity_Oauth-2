@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37648da6-2af5-4c5f-ab0c-4d30ddcaf8c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/emsi/app/inventoryservice/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/emsi/app/inventoryservice/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/docker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/keycloak-Login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/keycloak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "jbr-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/othmanetozy/Desktop/sdia-app/customer-front-tymeleaf-app/src/main/resources/templates",
+    "last_opened_file_path": "/home/othmanetozy/Desktop/sdia-app/Resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,6 +76,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources" />
       <recent name="$PROJECT_DIR$/customer-front-tymeleaf-app/src/main/resources/templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
