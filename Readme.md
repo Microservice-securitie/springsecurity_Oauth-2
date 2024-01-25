@@ -40,3 +40,16 @@ L'intégration fluide de Keycloak dans notre infrastructure a été réalisée e
 <img src= "Resources/keycloak_user.png" width="960" />
 </p>
 
+<h3>Application page (HOME)</h3>
+<p align="center" >
+<img src= "Resources/homepage.png" width="960" />
+</p>
+
+<h3>Provider</h3>
+L'élargissement des options d'authentification de notre application a été réalisé en ajoutant les fournisseurs d'identité Google, GitHub et Keycloak. Cette diversification permet aux utilisateurs de choisir entre les méthodes d'authentification de leur choix, qu'il s'agisse de comptes Google, GitHub ou du système sécurisé de Keycloak. L'intégration soigneuse de ces fournisseurs garantit une expérience d'authentification harmonieuse, tout en préservant la sécurité des données et en assurant la conformité aux normes élevées de notre application. Ainsi, notre système offre non seulement une variété d'options aux utilisateurs, mais maintient également une sécurité robuste.
+* Endpoint = localhost:8083/Oauth2Login 
+<p align="center" >
+<img src= "Resources/provider.png" width="960" />
+</p>
+
+
