@@ -1,15 +1,24 @@
 package emsi.app.customerfronttymeleafapp.controller;
 
+
 import emsi.app.customerfronttymeleafapp.entity.Customer;
+import emsi.app.customerfronttymeleafapp.model.Product;
 import emsi.app.customerfronttymeleafapp.repo.CustomerRepository;
 import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
+import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpHeaders;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.oauth2.client.authentication.OAuth2AuthenticationToken;
 import org.springframework.security.oauth2.client.registration.ClientRegistration;
 import org.springframework.security.oauth2.client.registration.ClientRegistrationRepository;
+import org.springframework.security.oauth2.core.oidc.user.DefaultOidcUser;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.client.RestClient;
 
 import java.util.HashMap;
 import java.util.List;
@@ -34,10 +43,22 @@ public class CustomerController {
     }
 
     @GetMapping("/products")
-    public String products(Model model){
-
+    public String products(Model model) {
+        SecurityContext context = SecurityContextHolder.getContext();
+        org.springframework.security.core.Authentication authentication = context.getAuthentication();
+        OAuth2AuthenticationToken oAuth2AuthenticationToken = (OAuth2AuthenticationToken) authentication;
+        DefaultOidcUser oidcUser = (DefaultOidcUser) oAuth2AuthenticationToken.getPrincipal();
+        String jwtTokenValue = oidcUser.getIdToken().getTokenValue();
+        RestClient restClient = RestClient.create("http://localhost:8070");
+        List<Product> products = restClient.get()
+                .uri("/products")
+                .headers(httpHeaders -> httpHeaders.set(HttpHeaders.AUTHORIZATION, "Bearer " + jwtTokenValue))
+                .retrieve()
+                .body(new ParameterizedTypeReference<List<Product>>() {});
+        model.addAttribute("products", products);
         return "products";
     }
+
 
     @GetMapping("/auth")
     @ResponseBody
@@ -70,6 +91,4 @@ public class CustomerController {
         model.addAttribute("urls", oauth2AuthenticationUrls);
         return "Oauth2Login";
     }
-
-
 }
