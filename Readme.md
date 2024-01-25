@@ -14,19 +14,29 @@ OIDC, ou OpenID Connect, est un protocole d'authentification et d'autorisation c
 ## Keycloack
 
 <p align="center" >
-<img src= "Resources/keycloak.png" height="250" width="auto" />
+<img src= "Resources/keycloak.png" height="290" width="auto" />
 </p>
 
 Mon projet intègre Keycloak en tant que fournisseur d'identité, utilisant le protocole OpenID Connect (OIDC) pour sécuriser le processus d'authentification des utilisateurs. Grâce à Keycloak, nous bénéficions d'une gestion avancée des autorisations, assurant un contrôle précis de l'accès aux ressources sensibles de notre application. Cette intégration renforce significativement la sécurité, garantissant une expérience utilisateur fiable. Ainsi, Keycloak constitue une composante essentielle de notre architecture, assurant une protection robuste et efficace des données et des services.
 
 <h5>Installation keycloak</h5>
-L'intégration fluide de Keycloak dans notre infrastructure a été réalisée en déployant avec succès une instance via Docker. Cette approche simplifiée garantit une gestion robuste des identités et des autorisations, renforçant ainsi la sécurité de notre application."
+
+L'intégration fluide de Keycloak dans notre infrastructure a été réalisée en déployant avec succès une instance via Docker. Cette approche simplifiée garantit une gestion robuste des identités et des autorisations, renforçant ainsi la sécurité de notre application.
 
 <p align="center" >
 <img src= "Resources/docker.png" height="160" width="auto" />
 </p>
 <h3>Keycloak Login </h3>
+
 <p align="center" >
-<img src= "Resources/keycloak-Login.png" height="600" width="auto" />
+<img src= "Resources/keycloak-Login.png" height="800" width="auto" />
+</p>
+
+<h3>Keycloak configuration </h3>
+<p align="center" >
+<img src= "Resources/configuration.png" height="800" width="auto" />
+</p>
+<p align="center" >
+<img src= "Resources/keycloak_user.png" height="800" width="auto" />
 </p>
 
