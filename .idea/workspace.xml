@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="37648da6-2af5-4c5f-ab0c-4d30ddcaf8c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-front-tymeleaf-app/src/main/java/emsi/app/customerfronttymeleafapp/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-tymeleaf-app/src/main/java/emsi/app/customerfronttymeleafapp/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-front-angular-app/src/app/Products/products.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/customer-front-angular-app/src/app/Products/products.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/emsi/app/inventoryservice/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/emsi/app/inventoryservice/config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CustomerFrontTymeleafAppApplication">
+  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
     <configuration name="generated-requests | #18" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="18" requestIdentifier="#18" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -160,7 +161,7 @@
       <workItem from="1706106032418" duration="2503000" />
       <workItem from="1706109141805" duration="2220000" />
       <workItem from="1706206294355" duration="8249000" />
-      <workItem from="1706266790486" duration="1399000" />
+      <workItem from="1706266790486" duration="3161000" />
     </task>
     <servers />
   </component>
