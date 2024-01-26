@@ -67,4 +67,9 @@ Angular est un framework pour clients, open source, basé sur TypeScript et codi
 
 <p align="center" >
 <img src= "Resources/NvClient.png" width="960" />
+
+Afin de résoudre un problème d'affichage des produits dans la liste de notre interface Angular, j'ai momentanément désactivé la sécurité. Les produits sont gérés par le service inventory-service. Pour assurer une communication fluide avec ce service, j'ai résolu les problèmes CORS, garantissant ainsi une connectivité efficace entre le frontend et le service. Cette solution temporaire a permis d'identifier et de résoudre le problème sous-jacent, ouvrant la voie à une sécurisation adéquate tout en maintenant une interaction optimale.
+
+</p><p align="center" >
+<img src= "Resources/disableSecurity.png" width="960" />
 </p>
