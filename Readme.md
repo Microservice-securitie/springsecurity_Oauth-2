@@ -73,3 +73,13 @@ Afin de résoudre un problème d'affichage des produits dans la liste de notre i
 </p><p align="center" >
 <img src= "Resources/disableSecurity.png" width="960" />
 </p>
+
+* J'ai amélioré la sécurité de mon application Angular en intégrant un garde de route, appelé 'AuthGuard', qui utilise la bibliothèque keycloak-angular. Ce garde assure que l'accès à certaines parties de l'application est limité aux utilisateurs authentifiés et autorisés grâce aux fonctionnalités d'authentification et d'autorisation de Keycloak. Cette intégration renforce la sécurité et garantit une expérience utilisateur cohérente, en limitant l'accès aux utilisateurs authentifiés avec les rôles appropriés.
+
+</p><p align="center" >
+<img src= "Resources/guard1.png" width="960" />
+</p>
+
+</p><p align="center" >
+<img src= "Resources/guard2.png" width="960" />
+</p>
