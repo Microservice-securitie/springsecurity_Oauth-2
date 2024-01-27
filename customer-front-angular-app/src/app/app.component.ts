@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {SecurityService} from "./service/security-service.service";
 import {KeycloakService} from "keycloak-angular";
+import {KeycloakProfile} from "keycloak-js";
 
 @Component({
   selector: 'app-root',
@@ -9,10 +10,16 @@ import {KeycloakService} from "keycloak-angular";
 })
 export class AppComponent implements OnInit{
   title = 'Customer-front-Angular-app';
+  public profile? : KeycloakProfile;
 
   ngOnInit(): void {
+    if (this.keycloak.isLoggedIn()){
+      this.keycloak.loadUserProfile().then(profile => {
+        this.profile = profile;
+      });
+    }
   }
-  constructor(public SecurityService : SecurityService, private keycloak : KeycloakService) {
+  constructor(private keycloak : KeycloakService) {
 
   }
   async login(){

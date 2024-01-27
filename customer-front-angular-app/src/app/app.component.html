@@ -19,8 +19,10 @@
       <ul class="navbar">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <span *ngIf="SecurityService.profile">{{SecurityService.profile?.username}}</span>
-            <span *ngIf="!SecurityService.profile">Found</span>
+            <span *ngIf="profile; else not_found">{{profile.firstName}}</span>
+          <ng-template #not_found>
+            Found
+          </ng-template>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" (click)="login()">Login</a></li>
