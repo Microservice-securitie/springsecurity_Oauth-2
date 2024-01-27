@@ -76,10 +76,29 @@ Afin de résoudre un problème d'affichage des produits dans la liste de notre i
 
 * J'ai amélioré la sécurité de mon application Angular en intégrant un garde de route, appelé 'AuthGuard', qui utilise la bibliothèque keycloak-angular. Ce garde assure que l'accès à certaines parties de l'application est limité aux utilisateurs authentifiés et autorisés grâce aux fonctionnalités d'authentification et d'autorisation de Keycloak. Cette intégration renforce la sécurité et garantit une expérience utilisateur cohérente, en limitant l'accès aux utilisateurs authentifiés avec les rôles appropriés.
 
-</p><p align="center" >
+<p align="center" >
 <img src= "Resources/guard1.png" width="960" />
 </p>
 
-</p><p align="center" >
+<p align="center" >
 <img src= "Resources/guard2.png" width="960" />
+</p>
+
+
+Les récents commits ont réorganisé le système d'autorisation de l'application, permettant un accès complet aux fonctionnalités liées aux produits pour les administrateurs tout en restreignant délibérément l'accès pour les utilisateurs standard. Ces ajustements visent à renforcer la sécurité de l'application en assurant un contrôle précis des autorisations en fonction des rôles des utilisateurs, marquant ainsi un engagement envers une expérience utilisateur plus sécurisée et personnalisée.
+
+<p align="center" >
+<img src= "Resources/authorisation_1.png" width="960" />
+</p>
+<p align="center" >
+<img src= "Resources/authorisation_2.png" width="960" />
+</p>
+<p align="center" >
+<img src= "Resources/authorisation_3.png" width="960" />
+</p>
+<p align="center" >
+<img src= "Resources/authorisation_4.png" width="960" />
+</p>
+<p align="center" >
+<img src= "Resources/authorisation_5.png" width="960" />
 </p>
