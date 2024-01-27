@@ -19,7 +19,7 @@ export class AppComponent implements OnInit{
       });
     }
   }
-  constructor(private keycloak : KeycloakService) {
+  constructor(public keycloak : KeycloakService) {
 
   }
   async login(){
