@@ -111,3 +111,12 @@ Les récents commits ont réorganisé le système d'autorisation de l'applicatio
 <p align="center" >
 <img src= "Resources/docker-images.png" height="290" width="auto" />
 </p>
+
+récemment, j'ai optimisé mon environnement de développement en intégrant Docker Compose. Cette intégration simplifie le déploiement et la gestion de deux conteneurs essentiels : l'un dédié à PHPMyAdmin et l'autre à MySQL. En parallèle, j'ai automatisé la création de la base de données, garantissant une initialisation transparente. L'utilisation de Docker Compose améliore considérablement l'efficacité et la reproductibilité de l'infrastructure, offrant une solution robuste pour orchestrer PHPMyAdmin et MySQL dans mon environnement de développement.
+
+<p align="center" >
+<img src= "Resources/phpmyadminlogin.png" width="980" />
+</p>
+<p align="center" >
+<img src= "Resources/phpmyadmin.png" width="980" />
+</p>
