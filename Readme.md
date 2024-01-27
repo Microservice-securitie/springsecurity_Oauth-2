@@ -1,4 +1,5 @@
-## compte rendu
+#  Compte rendu
+
 <h3>Introduction</h3>
 Notre projet Spring Boot et Spring Security, intégrant Thymeleaf pour le rendu côté serveur, assure une application web robuste. En optimisant la sécurité, nous avons intégré Keycloak pour une authentification et une gestion des autorisations avancées, garantissant une protection totale des données.
 
@@ -101,4 +102,12 @@ Les récents commits ont réorganisé le système d'autorisation de l'applicatio
 </p>
 <p align="center" >
 <img src= "Resources/authorisation_5.png" width="960" />
+</p>
+
+## Part 3 : Deploiment d'une architecture microservice avec Docker
+ <h3>Introduction</h3>
+ Docker est une plate-forme logicielle qui vous permet de concevoir, tester et déployer des applications rapidement. Docker intègre les logiciels dans des unités normalisées appelées conteneurs, qui rassemblent tous les éléments nécessaires à leur fonctionnement, dont les bibliothèques, les outils système, le code et l'environnement d'exécution. Avec Docker, vous pouvez facilement déployer et dimensionner des applications dans n'importe quel environnement, avec l'assurance que votre code s'exécutera correctement. 
+
+<p align="center" >
+<img src= "Resources/docker-images.png" height="290" width="auto" />
 </p>
