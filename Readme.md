@@ -120,3 +120,14 @@ récemment, j'ai optimisé mon environnement de développement en intégrant Doc
 <p align="center" >
 <img src= "Resources/phpmyadmin.png" width="980" />
 </p>
+
+
+Récemment, j'ai dockerisé mon service "inventory-service". Cette démarche a simplifié le déploiement de l'application en encapsulant son environnement et ses dépendances dans un conteneur Docker. Grâce à cette approche, j'ai gagné en portabilité et en efficacité, permettant une exécution cohérente du service indépendamment de l'environnement sous-jacent. Cette dockerisation offre également une gestion optimale des ressources, contribuant à une mise en production plus rapide et à une maintenance simplifiée de mon service "inventory-service".
+
+<p align="center" >
+<img src= "Resources/dockerApp1.png" width="980" />
+</p>
+
+<p align="center" >
+<img src= "Resources/dockerApp2.png" width="980" />
+</p>
